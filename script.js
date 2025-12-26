@@ -11,7 +11,7 @@ const GOAL_DEPTH = 100;
 // --- KONFIGURACJA POŁĄCZENIA ---
 // Jeśli uruchamiasz serwer u siebie, zostaw "http://localhost:3000"
 // Jeśli używasz Render.com, ngrok lub innego hostingu, wpisz tamten adres
-const SERVER_URL = "https://rl-vtfy.onrender.com";
+const SERVER_URL = "https://rl-vtfy.onrender.com/";
 
 // Automatyczny wybór połączenia
 const socket = SERVER_URL.includes("localhost") ? io() : io(SERVER_URL);
